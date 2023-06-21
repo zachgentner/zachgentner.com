@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --darkgreen: #7b8c6a;
+    --lightgreen: #c3cdb1;
+    --primary: #242435;
+    --secondary: #83908d;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif !important;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    color: var(--primary);
+    align-items: center; 
+    justify-content: center;
+    border-bottom: 1px solid var(--primary);
+    padding: 3rem 4rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1rem 0 0 0;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+/*NAVIGATION*/
+
+#navbar {
+    position: fixed;
+    display: flex;
+    flex: row;
+    top: 3rem;
+    right: -150px;
+    background-color: var(--primary);
+    opacity: .6;
+    z-index: 1000;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+}
+#navbar li{
+    height: 100%;
+    display: inline-block;
+    font-size: 16pt;
+    padding: .5rem;
+}
+#navbar li:hover {
+    background-color: var(--darkgreen);
+}
+#navbar a{
+    color: white;
+    text-decoration: none;
+    font-weight: 550;
+    padding: 10px;
+}
+#navbar div {
+    text-align: center;
+    color: white;
+}
+#navbar:hover {
+    animation-name: sidebar;
+    animation-duration: .5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+@keyframes sidebar {
+    0% {
+        right: -150px;
+    }
+    100% {
+        right: 0px;
+        opacity: 1;
+    }
+}
+
+#arrow {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    font-size: xx-large;
+}
+#top-btn {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    z-index: 100;
+    opacity: .5;
+}
+
+/*WELCOME*/
+
+#welcome-section {
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("img/forest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    text-align: center;
+
+    height: 100vh;
+}
+#welcome-section h1{
+    font-size: 36pt;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid white;
+    color: white;
+    margin: 0;
+}
+#welcome-section h2{
+    font-size: 24pt;
+    padding-top: 1rem;
+    color: white;
+}
+#welcome-section div{
+    background-color: rgb(36, 36, 53, .5);
+    padding: 2em;
+    border-radius: 15px;
+}
+
+/*PROFILE*/
+#profile {
+    background-color: var(--lightgreen);
+}
+.profile-photo {
+    height: 200px;
+    width: 200px;
+
+    border: 8px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 20px var(--primary);
+    margin: 2em 1em 1em 1em;
+}
+.profile-photo img {
+    border-radius: 50%;
+}
+
+/*EXPERIENCE*/
+
+#experience {
+}
+
+/*ABILITIES*/
+
+#abilities {
+    background-color: var(--lightgreen);
+}
+
+/*PROJECTS*/
+
+#projects {
+    justify-content: space-between;
+}
+#projects-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.project-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    margin: 2rem;
+    min-width: 250px;
+    width: 20%;
+    border: 1px solid var(--secondary);
+    border-radius: 12px;
+    box-shadow: 2px 2px 6px var(--secondary);
+}
+
+.project-tile h2{
+    width: 100%;
+    background-color: var(--primary);
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.project-tile img{
+    height: auto;
+    width: 100%;
+}
+.project-tile p {
+    margin: 1rem;
+}
+.btn {
+    background-color: var(--lightgreen);
+    color: var(--primary);
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 1rem;
+}
+.btn:hover {
+    background-color: var(--darkgreen);
+    color: white;
+}
+
+/*CONTACT*/
+
+#contact {
+    background-color:var(--primary);
+    color: white;
+}
+.social-link {
+    height: 50px;
+    width: 50px;
+    margin: 1rem;
+}
+
+/*FOOTER*/
+footer {
+    text-align: center;
+    background-color: var(--primary);
+    color: white;
+    padding: 12px;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 800px){
+    .project-tile {
+        width: 100%;
+    }
+
+    #social-bar {
+        width: 400px;
+    }
+
+}
