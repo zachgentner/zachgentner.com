@@ -165,9 +165,6 @@ h1 {
 
 /*EXPERIENCE*/
 
-#experience {
-}
-
 /*ABILITIES*/
 
 #abilities {
@@ -245,7 +242,7 @@ footer {
     text-align: center;
     background-color: var(--primary);
     color: white;
-    padding: 12px;
+    padding-bottom: 20px;
 }
 
 /*MEDIA QUERIES*/
