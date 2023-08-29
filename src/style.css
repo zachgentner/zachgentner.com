@@ -1,0 +1,78 @@
+body, html {
+    scroll-padding-top: 71px;
+  }
+
+.navbar {
+    top: 0;
+    position: sticky;
+}
+
+img {
+    width: 350px;
+    margin: auto;
+    overflow: none;
+}
+
+#splash {
+    height: 350px;
+}
+
+#dev {
+    background-image: url(img/binary.jpg); /* "http://www.freepik.com">Designed by starline / Freepik */
+    background-size: cover;
+}
+
+#des {
+    background-image: url(img/paint.png); /* "http://www.freepik.com">Designed by starline / Freepik */
+    background-size: cover;
+}
+
+#h-dev {
+    position: relative;
+    left: 50px;
+    opacity: .3;
+}
+
+#h-dev:hover {
+    opacity: .5;
+    transform: scale(1.05)
+}
+
+#h-des {
+    position: relative;
+    right: 50px;
+    opacity: .3;
+}
+
+#h-des:hover {
+    opacity: .5;
+    transform: scale(1.05)
+}
+
+#social {
+    height: 50px;
+}
+
+#social button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+
+#social 
+
+.filter-white {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(30deg) brightness(104%) contrast(102%);
+}
+
+@media (max-width: 1300px) {
+    #dev {
+        position: relative;
+        right: 100px;
+    }
+    #des {
+        position: relative;
+        left: 100px;
+    }
+  }

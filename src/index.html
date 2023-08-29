@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zach Gentner | Web Developer</title>
+    <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top p-3">
+        <div class="container container-fluid justify-content-between">
+          <a class="navbar-brand" href="https://www.linkedin.com/in/zachgentner">Zach Gentner | Developer</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                  <a class="nav-link active" href="#portfolio">Portfolio</a>
+                </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" href="#about">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" href="#contact">Contact</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" href="https://www.x.com/zach_gentner" target="_blank">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+<!-- SPLASH -->
+    <section class="d-none d-xl-block" id="splash">
+
+        <div class="d-flex flex-row justify-content-between align-items-center">
+            
+          <div class="d-flex flex-row justify-content-between align-items-center" id="dev">
+              <img class="img-fluid" src="img/dev-raw.png" alt="A colorful profile of Zach Gentner">
+              <div id="h-dev" class="display-4 user-select-none">Developer</div>
+          </div>
+          
+          <div class="d-flex flex-row align-items-center" id="des">
+              <div id="h-des" class="display-4 user-select-none">Designer</div>
+              <img class="img-fluid" src="img/des-raw.png" alt="A black and white profile of Zach Gentner">
+          </div>
+
+    </section>
+    
+<!-- ABOUT -->
+    <section id="about" class="text-center bg-light text-dark">
+      <div id="test" class="container container-fluid d-flex flex-column flex-lg-row align-items-center justify-content-center">
+        
+        <div id="test" class="container-fluid d-flex">
+          <img src="img/prof-bw.png" alt="">
+        </div>
+        
+        <div class="container-fluid card d-flex mb-3 p-2">
+          <h1 class="my-3">
+            <strong>Hello, I'm Zach</strong></h1>
+          <p class="">I'm a software developer and designer interested in building impactful digital solutions for individuals and businesses.</p>
+          <p class="">When I'm not coding, you can find me enjoying nature, reading, writing, or spending time with my wife and son.</p>
+          <a href="https://calendar.app.google/ppZHQS5eoW2pHEDAA" class="text-light text-decoration-none" target="_blank">
+            <div class="btn btn-primary mx-2 mt-1 mb-3">Schedule Meeting</div>
+          </a>
+          <!-- <p class="lead">Some fun facts about me: I can solve a Rubik's Cube, I've piloted an airplane, and I have entirely too many houseplants.</p> -->
+        </div>
+      </div>
+    </section>
+
+<!-- PORTFOLIO -->
+    <section id="portfolio" class="bg-dark text-light pb-3">
+        <div class="d-flex justify-content-center">
+            <h1 class="display-6 m-4">Portfolio</h1>
+        </div>
+
+        <div class="container">
+          <div class="row d-flex justify-content-center px-3">
+            <div class="card col-lg project mb-4 mx-4">
+              <img src="img/lpw.png" class="card-img-top img-fluid" alt="A screenshot of a business landing page.">
+              <div class="card-body">
+                <h5 class="card-title">Lakeside Pressure Washing</h5>
+                <p class="card-text">A freelance project designed and developed from scratch. This project exposed me to npm, responsive web design, and Netlify.</p>
+                <p class="card-text"><small class="text-muted">July, 2023</small></p>
+                <!-- <div class="btn btn-primary container-fluid">See more</div> -->
+              </div>
+            </div>
+
+            <div class="card project col-lg mb-4 mx-4">
+              <img src="img/todo.png" class="card-img-top img-fluid" alt="A screenshot of a todo list application.">
+              <div class="card-body">
+                <h5 class="card-title">Todo List</h5>
+                <p class="card-text">Building this browser-based todo list app was my first CRUD application developed using vanilla JavaScript.</p>
+                <p class="card-text"><small class="text-muted">July, 2023</small></p>
+                <!-- <div class="btn btn-primary container-fluid">See more</div> -->
+              </div>
+            </div>
+
+            <div class="card project col-lg mb-4 mx-4">
+              <img src="img/calc.png" class="card-img-top img-fluid" alt="A screenshot of a calculator application.">
+              <div class="card-body">
+                <h5 class="card-title">Calculator</h5>
+                <p class="card-text">This project taught me the basics of the DOM, event listeners, and how HTML, CSS, and JavaScript work in tandem.</p>
+                <p class="card-text"><small class="text-muted">June, 2023</small></p>
+                <!-- <div class="btn btn-primary container-fluid">See more</div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Use cards for projects or carousel? -->
+    </section>
+
+<!-- CONTACT -->
+    <section class="bg-light text-dark" id="contact">
+      <div class="d-flex justify-content-center">
+        <h1 class="display-6 m-4">Contact</h1>
+      </div>
+
+      <div class="container mb-4">
+        <div class="row">
+          <div class="col-lg px-2">          
+            <h1>Want to talk? <img src="https://media.giphy.com/media/w1OBpBd7kJqHrJnJ13/giphy.gif" style="height: 35px; width: 35px;"/></h1>
+            <p class="lead">Interested in collaborating or exploring mutual professional opportunities? Connect with me on social media, schedule a meeting, or send me an email!</p>
+          </div>
+
+          <!-- <div class="col-lg">
+            <form action="submit">
+              <input type="text">
+              <button class="btn btn-primary">Submit</button>
+            </form>
+          </div> -->
+
+          <div class="col-lg">
+            <h3><i class="fa-solid fa-hammer"></i> Form under construction!</h1>
+          </div>
+
+        </div>
+      </div>
+      
+        <h2 class="m-4 text-center">Let's get social.</h1>
+
+      <div id="social" class="container d-flex justify-content-center mb-4">
+        
+        <!-- <button class="btn d-flex align-items-center mx-1" style="background-color: #FFFFFF; border: solid 1px black; order: 0">
+          <a href="mailto: zach.gentner@gmail.com" target="_blank">
+            <i class="fa-regular fa-envelope fa-xl text-dark"></i>
+          </a>
+          </button> -->
+
+        <button class="btn d-flex align-items-center mx-1" style="background-color: #4267B2; order: 6">
+          <a href="https://www.facebook.com/zachgentner/" target="_blank">
+            <i class="fa-brands fa-facebook fa-xl text-light"></i>
+          </a>
+          </button>
+
+        <button class="btn d-flex align-items-center mx-1" style="background-color: #0A66C2; order: 1">
+          <a href="https://www.linkedin.com/in/zachgentner/" target="_blank">
+            <i class="fa-brands fa-linkedin fa-xl text-light"></i>
+          </a>
+        </button>
+
+        <button class="btn d-flex align-items-center mx-1" style="background-color: #F09A1A; order: 3">
+          <a href="https://www.leetcode.com/zachgentner/" target="_blank">
+            <img src="img/leetcode.svg" class="filter-white" style="width: 22px"></i>
+          </a>
+        </button>
+
+        <button class="btn d-flex align-items-center mx-1" style="background-color: #EF8236; order: 4">
+          <a href="https://stackoverflow.com/users/5982581/zach-gentner" target="_blank">
+            <i class="fa-brands fa-stack-overflow fa-xl text-light"></i>
+          </a>
+        </button>
+
+        <!-- <button class="btn d-flex align-items-center mx-1" style="background-color: #E84C88; order: 5">
+          <a href="https://dribbble.com/zachgentner" target="_blank">
+            <i class="fa-brands fa-dribbble fa-xl text-light"></i>
+          </a>
+        </button> -->
+
+        <button class="btn d-flex align-items-center mx-1" style="background-color: #000000; order: 7">
+          <a href="https://www.twitter.com/zach_gentner/" target="_blank">
+            <i class="fa-brands fa-x-twitter fa-xl text-light"></i>
+          </a>
+        </button>
+
+        <button class="btn d-flex align-items-center mx-1" style="background-color: #FF0000; order: 8">
+          <a href="https://www.youtube.com/zachgentner/" target="_blank">
+            <i class="fa-brands fa-youtube fa-xl text-light"></i>
+          </a>
+        </button>
+
+        <button class="btn d-flex align-items-center mx-1" style="background-color: #000000; order: 2">
+          <a href="https://www.github.com/zachgentner/" target="_blank">
+            <i class="fa-brands fa-github fa-xl text-light"></i>
+          </a>
+        </button>
+
+      </div>
+    </section>
+      
+<!-- FOOTER -->
+    <footer class="bg-dark text-light">
+      <div class="container container-fluid d-flex justify-content-center">
+        <a class="text-light text-decoration-none" href="https://www.github.com/zachgentner" target="_blank">
+          <p class="m-4">Website by Zach Gentner</p>
+        </a>
+      </div>
+    </footer>
+
+<!-- SCRIPTS -->
+    <script src="/src/script.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
