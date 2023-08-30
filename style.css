@@ -57,13 +57,17 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
+    min-width: 50px;
 }
 
 #social 
 
 .filter-white {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(30deg) brightness(104%) contrast(102%);
+}
+
+.navbar-toggler {
+    border: none;
 }
 
 @media (max-width: 1300px) {
