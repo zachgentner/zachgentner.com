@@ -88,7 +88,7 @@
             <h1 class="display-6 m-4">Portfolio</h1>
         </div>
 
-        <div class="container">
+        <div class="container px-4">
           <div class="row d-flex justify-content-center px-3">
             <div class="card col-lg project mb-4 mx-4">
               <img src="img/lpw.webp" class="card-img-top img-fluid" decoding=“async” alt="A screenshot of a business landing page.">
@@ -111,10 +111,10 @@
             </div>
 
             <div class="card project col-lg mb-4 mx-4">
-              <img src="img/calc.webp" class="card-img-top img-fluid" decoding=“async” alt="A screenshot of a calculator application.">
+              <img src="img/weather.png" class="card-img-top img-fluid" decoding=“async” alt="A screenshot of a weather application.">
               <div class="card-body">
-                <h5 class="card-title">Calculator</h5>
-                <p class="card-text">This project taught me the basics of the DOM, event listeners, and how HTML, CSS, and JavaScript work in tandem.</p>
+                <h5 class="card-title">Weather Application</h5>
+                <p class="card-text">This project taught me the about making API calls and helped me to better understand working with JSON files.</p>
                 <p class="card-text"><small class="text-muted">June, 2023</small></p>
                 <!-- <div class="btn btn-primary container-fluid">See more</div> -->
               </div>
@@ -131,7 +131,7 @@
         <h1 class="display-6 m-4">Contact</h1>
       </div>
 
-      <div class="container mb-4">
+      <div class="container mb-4 px-5">
         <div class="row">
           <div class="col-lg px-2">
             <h1>Want to talk?</h1>
@@ -139,15 +139,20 @@
             <p class="lead">Interested in collaborating or exploring mutual professional opportunities? Connect with me on social media, schedule a meeting, or send me an email!</p>
           </div>
 
-          <!-- <div class="col-lg">
-            <form action="submit">
-              <input type="text">
-              <button class="btn btn-primary">Submit</button>
-            </form>
-          </div> -->
-
           <div class="col-lg d-flex justify-content-center align-items-center">
-            <h3><i class="fa-solid fa-hammer"></i> Form under construction!</h1>
+            <!-- <h3><i class="fa-solid fa-hammer"></i> Form under construction!</h1> -->
+              <form class="d-flex flex-column container-fluid" action="https://formspree.io/f/mbjvygge" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea name="message" required></textarea>
+
+                <button type="submit" class="btn btn-primary mt-3">Send</button>
+              </form>
           </div>
 
         </div>
@@ -156,12 +161,6 @@
         <h2 class="m-4 text-center">Let's get social.</h1>
 
       <div id="social" class="container d-flex justify-content-center mb-4">
-        
-        <!-- <button class="btn d-flex align-items-center mx-1" style="background-color: #FFFFFF; border: solid 1px black; order: 0">
-          <a href="mailto: zach.gentner@gmail.com" target="_blank">
-            <i class="fa-regular fa-envelope fa-xl text-dark"></i>
-          </a>
-          </button> -->
 
         <button class="btn d-flex align-items-center mx-1" style="background-color: #4267B2; order: 6">
           <a href="https://www.facebook.com/zachgentner/" target="_blank">
