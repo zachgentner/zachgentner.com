@@ -7,10 +7,15 @@ body, html {
     position: sticky;
 }
 
-img {
+#splash img {
     width: 350px;
     margin: auto;
     overflow: none;
+}
+
+#about img {
+    width: 100%;
+    max-width: 350px;
 }
 
 #splash {
@@ -59,8 +64,6 @@ img {
     align-items: center;
     min-width: 50px;
 }
-
-#social 
 
 .filter-white {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(30deg) brightness(104%) contrast(102%);
