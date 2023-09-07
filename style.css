@@ -1,6 +1,7 @@
 body, html {
     scroll-padding-top: 71px;
     overflow-x: hidden;
+    scroll-behavior: smooth;
   }
 
 .navbar {
@@ -55,6 +56,11 @@ body, html {
     transform: scale(1.05)
 }
 
+#portfolio img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
 #social {
     height: 50px;
 }
@@ -98,5 +104,11 @@ footer {
     #des {
         position: relative;
         left: 100px;
+    }
+  }
+
+  @media (max-width: 992px) {
+    #portfolio img {
+        max-height: 400px;
     }
   }
