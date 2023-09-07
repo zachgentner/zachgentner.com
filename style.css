@@ -1,7 +1,10 @@
 body, html {
     scroll-padding-top: 71px;
-    overflow-x: hidden;
     scroll-behavior: smooth;
+  }
+
+  body {
+        overflow-x: hidden;
   }
 
 .navbar {
@@ -42,7 +45,7 @@ body, html {
 
 #h-dev:hover {
     opacity: .5;
-    transform: scale(1.05)
+    transform: scale(1.05);
 }
 
 #h-des {
@@ -72,10 +75,6 @@ body, html {
     min-width: 50px;
 }
 
-footer {
-
-}
-
 #topbtn {
  border-radius: 80%;
  width: 110%;
@@ -90,10 +89,6 @@ footer {
 
 .filter-white {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(30deg) brightness(104%) contrast(102%);
-}
-
-.navbar-toggler {
-    border: none;
 }
 
 @media (max-width: 1300px) {
