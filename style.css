@@ -3,9 +3,13 @@ body, html {
     scroll-behavior: smooth;
   }
 
-  body {
-        overflow-x: hidden;
-  }
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
 
 .navbar {
     top: 0;
