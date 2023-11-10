@@ -3,7 +3,7 @@ body, html {
     scroll-behavior: smooth;
   }
 
-body {
+.wrapper {
     overflow-x: hidden;
 }
 
