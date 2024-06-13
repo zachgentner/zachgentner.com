@@ -236,20 +236,23 @@
           </div>
 
           <div class="col-lg d-flex justify-content-center align-items-center">
-              <!-- <form class="d-flex flex-column container-fluid" action="https://formspree.io/f/mbjvygge" method="POST">
+            <!-- <form class="d-flex flex-column container-fluid" action="https://formspree.io/f/mbjvygge" method="POST">
+  
                 <label for="name" class="py-1">Name:</label>
-                <input id="name" type="text" class="py-1" autocomplete="name" required>
-
+                <input name="name" id="name" type="text" class="py-1" autocomplete="name" required>
+                
                 <label for="email" class="py-1">Email:</label>
-                <input id="email" type="email" class="py-1" autocomplete="email" required>
+                <input name="email" id="email" type="email" class="py-1" autocomplete="email" required>
 
                 <label for="message" class="py-1">Message:</label>
-                <textarea id="message" type="text" class="py-1" required></textarea>
+                <textarea name="message" id="message" type="text" class="py-1" required></textarea>
 
                 <button type="submit" class="btn btn-primary mt-3 py-2">Send</button>
               </form> -->
 
               <form class="d-flex flex-column container-fluid" name="contact" netlify>
+              <!-- THE BELOW CODE WILL SEND THE FORM SUBMISSION TO A CUSTOM SUCCESS PAGE -->
+              <!-- <form class="d-flex flex-column container-fluid" name="contact" action="/success.html" netlify> -->
 
                   <label for="name" class="py-1">Name:</label>
                   <input name="name" id="name" type="text" class="py-1" autocomplete="name" required>
@@ -263,19 +266,6 @@
                   <button type="submit" class="btn btn-primary mt-3 py-2">Send</button>
 
               </form>
-
-              <!-- <form name="contact" netlify>
-                <p>
-                  <label>Name <input type="text" name="name" /></label>
-                </p>
-                <p>
-                  <label>Email <input type="email" name="email" /></label>
-                </p>
-                <p>
-                  <button type="submit">Send</button>
-                </p>
-              </form> -->
-
           </div>
 
         </div>
