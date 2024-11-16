@@ -1,3 +1,3 @@
 https://dev.zachgentner.com/* https://dev.zachgentner.pages.dev/:splat 301
-https://www.zachgentner.com/genealogy https://sites.rootsmagic.com/zachgentner/index.php/:splat 301
-https://www.zachgentner.com/testing https://www.google.com/:splat 301
+/genealogy https://sites.rootsmagic.com/zachgentner/index.php 301
+/testing https://google.com 301
