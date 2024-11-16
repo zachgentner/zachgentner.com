@@ -1,2 +1,2 @@
-# zachgentner.github.io
+# zachgentner.com
 Public Website
